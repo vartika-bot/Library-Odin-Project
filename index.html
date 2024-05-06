@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="head-box">
+        <h1>My Library</h1>
+      </div>
+      <div class="body-box">
+        <button id="addBook"><h2>Add Book</h2></button>
+      </div>
+      
+      <!-----Form information----->
+      <div class="form-popup" id="popUpForm">
+        <span class="greet-question">Which Book would you like to add today</span>
+        <form action="" method="post" class="book-form">
+          <label for="book-input" class="book-name"><b>Title</b></label>
+          <input type="text" class="input-title input" placeholder="Book title....">
+          <label for="author" class="author"><b>Author</b></label>
+          <input type="text" class="input-author input" placeholder="Author.....">
+          <label for="pages" class="pages"><b>Pages</b></label>
+          <input type="text" class="input-pages input" placeholder="Pages....">
+          
+      </form>
+         <button type="submit" class="submit">Submit</button>
+         <button type="submit" class="cancel">Cancel</button>
+    </div>
+</body>
+<script src="index.js"  ></script>
+</html>
