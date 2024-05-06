@@ -203,9 +203,9 @@ font-size: 1.2rem;
   color: white;
 }
 
-#readBtn {
-  display: none;
-  position: absolute;
+.readBtn {
+
+  position: relative;
   top: 35%;
   left: 3%;
 height: 1.2rem;
@@ -219,9 +219,9 @@ font-size: 1rem;
 }
 
 
-#deleteBtn {
-  display:none;
-  position: absolute;
+.deleteBtn {
+ 
+  position: relative;
   top: 35%;
   left: 14%;
   border: none;
@@ -232,14 +232,14 @@ font-family: "ubuntu",sans-serif;
 font-size: 1rem;
 }
 
-#readBtn:active{
+.readBtn:active{
   background-color:rgba(128, 128, 128, 0.501);
   color: white;
 }
 
 
 
-#deleteBtn:active{
+.deleteBtn:active{
   background-color:rgba(128, 128, 128, 0.501);
   color: white;
 }
